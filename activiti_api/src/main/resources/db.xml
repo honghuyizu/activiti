@@ -4,11 +4,11 @@
     <!-- JDBC驱动类路径 -->
     <driver>com.mysql.jdbc.Driver</driver>
     <!-- JDBC连接URL -->
-    <url>jdbc:mysql://120.76.241.15:3306/activiti_dev?useUnicode=true&amp;characterEncoding=UTF-8</url>
+    <url>jdbc:mysql://localhost:3306/activiti_dev?useUnicode=true&amp;characterEncoding=UTF-8</url>
     <!-- JDBC连接用户名 -->
-    <user>jhsbank</user>
+    <user>root</user>
     <!-- JDBC连接用户密码 -->
-    <password>jhsbank</password>
+    <password>root</password>
     <!-- JDBC连接池的初始化连接数 -->
     <initial_size>5</initial_size>
     <!-- JDBC连接池的最大活动连接数 -->
