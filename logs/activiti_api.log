@@ -1613,3 +1613,191 @@ Caused by: java.lang.IllegalStateException: getWriter() has already been called 
 2018-03-02 17:01:30.432 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
 2018-03-02 17:02:30.432 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
 2018-03-02 17:02:30.432 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:28:24.912 [main] INFO  com.activiti.ActivitiApiMain [StartupInfoLogger.java:48] - Starting ActivitiApiMain on VR61XM1XHYRJ9P1 with PID 4560 (D:\workspace\activiti\activiti_api\build\classes\main started by Administrator in D:\workspace\activiti)
+2018-03-05 14:28:24.917 [main] DEBUG com.activiti.ActivitiApiMain [StartupInfoLogger.java:51] - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-03-05 14:28:24.917 [main] INFO  com.activiti.ActivitiApiMain [SpringApplication.java:593] - No active profile set, falling back to default profiles: default
+2018-03-05 14:28:31.262 [main] DEBUG com.mayland.base_dao.util.DaoConfig [DaoConfig.java:34] - .................com.mayland.base_dao.util.DaoConfig....................
+2018-03-05 14:28:31.398 [main] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:112] - DbcpBean(driverClassName=com.mysql.jdbc.Driver, url=jdbc:mysql://localhost:3306/activiti_dev?useUnicode=true&characterEncoding=UTF-8, userName=root, password=root, connectionProperties=, defaultAutoCommit=true, defaultReadOnly=false, defaultTransactionIsolation=-1, defaultCatalog=, initialSize=5, maxActive=20, maxIdle=20, minIdle=5, maxWait=-1, validationQuery=select 1, testOnBorrow=true, testOnReturn=true, testWhileIdle=true, timeBetweenEvictionRunsMillis=30000, numTestsPerEvictionRun=3, minEvictableIdleTimeMillis=1800000, poolPreparedStatements=false, maxOpenPreparedStatements=0, accessToUnderlyingConnectionAllowed=false)
+2018-03-05 14:28:31.399 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:28:31.400 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 0
+2018-03-05 14:28:31.763 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = ad
+2018-03-05 14:28:31.774 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = ad_position
+2018-03-05 14:28:31.780 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = article
+2018-03-05 14:28:31.785 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = article_topic
+2018-03-05 14:28:31.789 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = carousel
+2018-03-05 14:28:31.794 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = carousel_item
+2018-03-05 14:28:31.799 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = customer
+2018-03-05 14:28:31.804 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = customer_group
+2018-03-05 14:28:31.809 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = dict
+2018-03-05 14:28:31.815 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = dict_bank
+2018-03-05 14:28:31.820 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = dict_type
+2018-03-05 14:28:31.826 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = member
+2018-03-05 14:28:31.831 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = member_level
+2018-03-05 14:28:31.836 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = member_log
+2018-03-05 14:28:31.841 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = member_manager
+2018-03-05 14:28:31.847 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = member_register
+2018-03-05 14:28:31.851 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = mobile_app
+2018-03-05 14:28:31.856 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = mobile_app_config
+2018-03-05 14:28:31.860 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = org
+2018-03-05 14:28:31.865 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = org_credit
+2018-03-05 14:28:31.869 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = org_file
+2018-03-05 14:28:31.874 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = org_member
+2018-03-05 14:28:31.878 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = resource
+2018-03-05 14:28:31.884 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = system_api_app
+2018-03-05 14:28:31.889 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = system_api_config
+2018-03-05 14:28:31.894 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = system_api_invitation_code
+2018-03-05 14:28:31.897 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = system_api_remote_addr_black
+2018-03-05 14:28:31.901 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = system_api_remote_addr_white
+2018-03-05 14:28:31.906 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = system_area
+2018-03-05 14:28:31.910 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = system_keyword
+2018-03-05 14:28:31.914 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = system_menu
+2018-03-05 14:28:31.918 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = task
+2018-03-05 14:28:31.923 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = task_log
+2018-03-05 14:28:31.927 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = user
+2018-03-05 14:28:31.932 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = user_address
+2018-03-05 14:28:31.937 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = user_credit_card
+2018-03-05 14:28:31.941 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = user_debit_card
+2018-03-05 14:28:31.946 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = user_file
+2018-03-05 14:28:31.950 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = user_log
+2018-03-05 14:28:31.954 [main] DEBUG com.mayland.base_dao.impl.DbOfMySql [DbOfMySql.java:124] - tableName = user_role
+2018-03-05 14:28:32.799 [main] DEBUG com.mayland.rbac_api.util.config.CorsConfig [CorsConfig.java:60] - .................com.mayland.rbac_api.util.config.CorsConfig....................
+2018-03-05 14:28:33.354 [main] INFO  com.activiti.ActivitiApiMain [StartupInfoLogger.java:57] - Started ActivitiApiMain in 9.012 seconds (JVM running for 12.966)
+2018-03-05 14:28:33.366 [main] DEBUG com.mayland.rbac_api.util.config.ProjectConfig [ProjectConfig.java:61] - .................com.mayland.rbac_api.util.config.ProjectConfig....................
+2018-03-05 14:28:33.425 [main] DEBUG com.activiti.ActivitiApiMain [ActivitiApiMain.java:22] - http://localhost:8888/
+2018-03-05 14:29:31.403 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:29:31.403 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:30:31.404 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:30:31.404 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:30:56.005 [http-nio-127.0.0.1-8888-exec-2] DEBUG com.mayland.base_api.handler.util.AppAuthHandler [AppAuthHandler.java:56] - apiTableNamePrefix : system_api
+2018-03-05 14:30:56.005 [http-nio-127.0.0.1-8888-exec-2] DEBUG com.mayland.base_api.handler.util.AppAuthHandler [AppAuthHandler.java:71] - ...............com.mayland.base_api.handler.util.AppAuthHandler...............
+2018-03-05 14:30:56.006 [http-nio-127.0.0.1-8888-exec-2] DEBUG com.mayland.base_api.handler.util.AppConfigHandler [AppConfigHandler.java:39] - apiTableNamePrefix : system_api
+2018-03-05 14:30:56.006 [http-nio-127.0.0.1-8888-exec-2] INFO  com.mayland.base_api.handler.util.AppConfigHandler [AppConfigHandler.java:54] - ..........com.mayland.base_api.handler.util.AppConfigHandler..............
+2018-03-05 14:30:56.007 [http-nio-127.0.0.1-8888-exec-2] DEBUG com.mayland.base_api.handler.util.TableHandler [TableHandler.java:31] - apiTableNamePrefix : system_api
+2018-03-05 14:30:56.007 [http-nio-127.0.0.1-8888-exec-2] INFO  com.mayland.base_api.handler.util.TableHandler [TableHandler.java:46] - ..........com.mayland.base_api.handler.util.TableHandler..............
+2018-03-05 14:30:56.009 [http-nio-127.0.0.1-8888-exec-2] DEBUG com.mayland.base_api.handler.util.RemoteAddrHandler [RemoteAddrHandler.java:45] - tableNamePrefix : system_api
+2018-03-05 14:30:56.009 [http-nio-127.0.0.1-8888-exec-2] INFO  com.mayland.base_api.handler.util.RemoteAddrHandler [RemoteAddrHandler.java:68] - ..........com.mayland.base_api.handler.util.RemoteAddrHandler..............
+2018-03-05 14:30:56.009 [http-nio-127.0.0.1-8888-exec-2] DEBUG com.mayland.base_api.handler.util.TableHandler [TableHandler.java:31] - apiTableNamePrefix : system_api
+2018-03-05 14:30:56.010 [http-nio-127.0.0.1-8888-exec-2] DEBUG com.mayland.base_api.handler.util.TableHandler [TableHandler.java:31] - apiTableNamePrefix : system_api
+2018-03-05 14:30:56.010 [http-nio-127.0.0.1-8888-exec-2] DEBUG com.mayland.base_api.handler.util.TableHandler [TableHandler.java:31] - apiTableNamePrefix : system_api
+2018-03-05 14:30:56.032 [http-nio-127.0.0.1-8888-exec-2] DEBUG com.mayland.base_api.handler.util.AppAuthHandler [AppAuthHandler.java:100] - authBean : AuthBean(token=null, apiKey=client, signature=f924e9f8f47ad1c299058606c139970c45057bed, timestamp=1520231454944)
+2018-03-05 14:30:56.037 [http-nio-127.0.0.1-8888-exec-2] ERROR com.mayland.base_util.tool.config.impl.XmlConfigFile [XmlConfigFile.java:90] - configFileName = date.xml
+2018-03-05 14:30:56.038 [http-nio-127.0.0.1-8888-exec-2] ERROR com.mayland.base_util.tool.config.impl.XmlConfigFile [XmlConfigFile.java:92] - Exception : InputStream cannot be null
+2018-03-05 14:30:56.161 [http-nio-127.0.0.1-8888-exec-2] DEBUG com.mayland.base_api.util.ApiUtil [ApiUtil.java:41] - f924e9f8f47ad1c299058606c139970c45057bed
+2018-03-05 14:31:10.542 [http-nio-127.0.0.1-8888-exec-7] DEBUG com.mayland.base_api.handler.util.AppAuthHandler [AppAuthHandler.java:56] - apiTableNamePrefix : system_api
+2018-03-05 14:31:10.542 [http-nio-127.0.0.1-8888-exec-7] DEBUG com.mayland.base_api.handler.util.AppAuthHandler [AppAuthHandler.java:100] - authBean : AuthBean(token=null, apiKey=client, signature=6d0b2f3afc31451dfec9ca16d9805feabb284261, timestamp=1520231470511)
+2018-03-05 14:31:10.544 [http-nio-127.0.0.1-8888-exec-7] DEBUG com.mayland.base_api.util.ApiUtil [ApiUtil.java:41] - 6d0b2f3afc31451dfec9ca16d9805feabb284261
+2018-03-05 14:31:10.611 [http-nio-127.0.0.1-8888-exec-7] DEBUG com.mayland.rbac_api.service.user.UserLoginService [UserLoginService.java:86] - account = admin
+2018-03-05 14:31:10.611 [http-nio-127.0.0.1-8888-exec-7] DEBUG com.mayland.rbac_api.service.user.UserLoginService [UserLoginService.java:88] - password = 31
+2018-03-05 14:31:10.611 [http-nio-127.0.0.1-8888-exec-7] DEBUG com.mayland.rbac_api.service.user.UserLoginService [UserLoginService.java:90] - HexUtil.decodeUTF8(password) = 1
+2018-03-05 14:31:10.618 [http-nio-127.0.0.1-8888-exec-7] DEBUG com.mayland.base_util.tool.jwt.config.JwtConfig [JwtConfig.java:70] - configFileName : jwt.xml
+2018-03-05 14:31:10.717 [http-nio-127.0.0.1-8888-exec-7] INFO  com.mayland.base_util.tool.LogUtil [LogUtil.java:29] - get_menu_ids, interval time = 12ms
+2018-03-05 14:31:10.725 [http-nio-127.0.0.1-8888-exec-7] INFO  com.mayland.base_util.tool.LogUtil [LogUtil.java:29] - get_list_by_ids, interval time = 7ms
+2018-03-05 14:31:10.732 [http-nio-127.0.0.1-8888-exec-7] INFO  com.mayland.base_util.tool.LogUtil [LogUtil.java:29] - get_main_menus, interval time = 7ms
+2018-03-05 14:31:10.733 [http-nio-127.0.0.1-8888-exec-7] INFO  com.mayland.base_util.tool.LogUtil [LogUtil.java:29] - get_side_menus, interval time = 0ms
+2018-03-05 14:31:10.763 [http-nio-127.0.0.1-8888-exec-7] INFO  com.mayland.base_util.tool.LogUtil [LogUtil.java:29] - user_login_by_account, interval time = 153ms
+2018-03-05 14:31:13.130 [http-nio-127.0.0.1-8888-exec-10] DEBUG com.mayland.base_api.handler.util.AppAuthHandler [AppAuthHandler.java:56] - apiTableNamePrefix : system_api
+2018-03-05 14:31:13.131 [http-nio-127.0.0.1-8888-exec-10] DEBUG com.mayland.base_api.handler.util.AppAuthHandler [AppAuthHandler.java:100] - authBean : AuthBean(token=eyJhbGciOiJIUzI1NiJ9.eyJiaXJ0aGRheSI6ODY2NzkzMjU2MDAwLCJlbmRfZGF0ZSI6IiIsImJpcnRoZGF5X3RpbWUiOiIxNTo1NDoxNiIsImNvZGUiOm51bGwsInJlbWFyayI6ImJiYiIsImF2YXRhcl9wYXRoX25hbWUiOiIvdXBsb2FkX2ZpbGVzLzIwMTctMTItMjAvMzVmZTdiYzgtMjdhYy00NzZmLTk2N2MtOGYwYjc3ZjU3OTk1LnBuZyIsImxhc3RfdXBkYXRlX2RhdGVfdGltZSI6IjIwMTctMTItMjAgMTE6MTg6MDQiLCJyb2xlX2lkcyI6IjIzLDI0LDAiLCJjcmVhdGVfZGF0ZV90aW1lIjoiMjAxNS0wMy0wNiAxMDo1ODo1NiIsImVuZF9kYXRlX3RpbWUiOiIiLCJuaWNrbmFtZSI6bnVsbCwiY3JlYXRlX2R0IjoxNDI1NjEwNzM2MDAwLCJpZCI6MSwiZGVsZXRlX2ZsYWciOm51bGwsImNyZWF0ZV9kYXRlIjoiMjAxNS0wMy0wNiIsImV4cCI6MTUyMDIzNTA3MCwiZmlyc3RfbmFtZSI6IjAwMSIsImVtYWlsIjoiMTM2MjE5MjUxOTFAMTM5LmNvbSIsImxhc3RfdXBkYXRlX2RhdGUiOiIyMDE3LTEyLTIwIiwicXEiOm51bGwsImN1c3RvbV90dGwiOjM2MDAwMDAsImVuZF9kdCI6bnVsbCwiYWRkcmVzcyI6bnVsbCwiY2FyZF9udW1iZXIiOm51bGwsImNyZWF0ZV90aW1lIjoiMTA6NTg6NTYiLCJzdGF0dXNfbmFtZSI6IuW3suWQr-eUqCIsInNleCI6ImZlbWFsZSIsIm1vYmlsZSI6IjEzNjIxOTI1MTkyIiwiZW5kX3RpbWUiOiIiLCJsYXN0X25hbWUiOiLnrqHnkIblkZgiLCJsYXN0X3VwZGF0ZV9kdCI6MTUxMzczOTg4NDAwMCwibGFzdF91cGRhdGVfdXNlcl9pZCI6MSwiY3VyX3VzZXIiOnRydWUsInppcGNvZGUiOm51bGwsImxhc3RfdXBkYXRlX3RpbWUiOiIxMToxODowNCIsInNleF9uYW1lIjoi5aWzIiwicGhvbmUiOm51bGwsImJpcnRoZGF5X2RhdGUiOiIxOTk3LTA2LTIwIiwibmFtZSI6IueuoeeQhuWRmCIsImNhcmRfbmFtZSI6bnVsbCwiZHV0eSI6bnVsbCwiYmlydGhkYXlfZGF0ZV90aW1lIjoiMTk5Ny0wNi0yMCAxNTo1NDoxNiIsImFjY291bnQiOiJhZG1pbiIsImFnZSI6MjAsInN0YXR1cyI6ImVuYWJsZWQifQ.0EgjnUriQBJElVaTfEV90vhICohh77PHCE6hDZosVBI, apiKey=client, signature=b544693c0508ba6f34fd893e95b78867d66afad1, timestamp=1520231473116)
+2018-03-05 14:31:13.131 [http-nio-127.0.0.1-8888-exec-10] DEBUG com.mayland.base_api.util.ApiUtil [ApiUtil.java:41] - b544693c0508ba6f34fd893e95b78867d66afad1
+2018-03-05 14:31:13.157 [http-nio-127.0.0.1-8888-exec-10] INFO  com.mayland.base_util.tool.LogUtil [LogUtil.java:29] - TreeMenu.getTree, interval time = 8ms
+2018-03-05 14:31:31.406 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:31:31.407 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:32:31.407 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:32:31.407 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:33:31.409 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:33:31.409 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:34:31.409 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:34:31.409 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:35:31.410 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:35:31.410 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:36:31.411 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:36:31.411 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:37:31.411 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:37:31.412 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:38:31.413 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:38:31.413 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:39:31.413 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:39:31.413 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:40:31.415 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:40:31.415 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:41:31.415 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:41:31.416 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:42:31.418 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:42:31.419 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:43:31.421 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:43:31.421 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:44:31.422 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:44:31.422 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:45:31.423 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:45:31.423 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:46:31.423 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:46:31.423 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:47:31.425 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:47:31.426 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:48:31.427 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:48:31.428 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:49:31.430 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:49:31.431 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:50:31.432 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:50:31.433 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:51:31.434 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:51:31.435 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:52:31.437 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:52:31.438 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:53:31.439 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:53:31.440 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:54:31.442 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:54:31.443 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:55:31.444 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:55:31.445 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:56:31.447 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:56:31.448 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:57:31.449 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:57:31.450 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:58:31.451 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:58:31.451 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 14:59:31.452 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 14:59:31.453 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:00:31.455 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:00:31.455 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:01:31.456 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:01:31.456 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:02:31.456 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:02:31.457 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:03:31.459 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:03:31.460 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:04:31.461 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:04:31.462 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:05:31.463 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:05:31.464 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:06:31.466 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:06:31.467 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:07:31.469 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:07:31.469 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:08:31.493 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:08:31.493 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:09:31.493 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:09:31.494 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:10:31.496 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:10:31.497 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:11:31.497 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:11:31.498 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:12:31.500 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:12:31.501 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:13:31.502 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:13:31.503 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:14:31.504 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:14:31.504 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:15:31.505 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:15:31.505 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:16:31.505 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:16:31.505 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:17:31.506 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:17:31.506 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:18:31.506 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:18:31.506 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:19:31.507 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:19:31.507 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:20:31.509 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:20:31.510 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
+2018-03-05 15:21:31.510 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:189] - Active connection: 0
+2018-03-05 15:21:31.511 [Thread-5] INFO  com.mayland.base_dao.impl.DBCP [DBCP.java:190] - Idle connection: 5
