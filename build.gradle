@@ -132,6 +132,13 @@ subprojects {
                 'org.springframework.boot:spring-boot-starter-web',
                 //------------tomcat
                 'org.springframework.boot:spring-boot-starter-tomcat',
+                //------------activiti
+                'org.activiti:activiti-spring-boot-starter-basic:5.22.0',
+                'org.activiti:activiti-spring-boot-starter-rest-api:5.22.0',
+                'org.activiti:activiti-spring-boot-starter-actuator:5.22.0',
+                'org.activiti:activiti-spring-boot-starter-jpa:5.22.0',
+                'org.activiti:activiti-modeler:5.22.0',
+                'org.activiti:activiti-diagram-rest:5.22.0',
                 //------------base
                 'base_framework:base_util:0.2.0',
                 'base_framework:base_dao:0.2.0',
